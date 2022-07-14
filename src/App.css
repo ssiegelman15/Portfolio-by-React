@@ -1,0 +1,140 @@
+:root {
+  background-color: black;
+}
+
+h1 {
+  padding-left: 25px;
+  color: aliceblue;
+}
+
+header {
+  overflow: hidden;
+  background-color: cadetblue;
+  padding: 20px 10px;
+}
+
+header a,
+h1 {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: white;
+  color: black;
+}
+
+header a.active {
+  background-color: black;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+footer {
+  overflow: hidden;
+  background-color: cadetblue;
+  padding: 20px 10px;
+  max-height: 50px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  min-height: 550px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  color: cadetblue;
+  padding: 50px 0 100px 0;
+}
+
+h3 {
+  font-size: 48px;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 10px;
+  flex-wrap: wrap;
+}
+
+aside {
+  display: flex;
+  flex: 3;
+  padding-right: 150px;
+  border-left: 2px solid cadetblue;
+}
+
+.main-content {
+  padding-left: 40px;
+}
+
+.btn-primary {
+  margin-left: 60px;
+  background-color: black;
+}
+
+.card {
+  background-color: cadetblue;
+  color: white;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contacts li {
+  padding: 10px;
+  color: cadetblue;
+}
+
+.contacts li a {
+  color: cadetblue;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding: 0px 8px;
+  color: white;
+}

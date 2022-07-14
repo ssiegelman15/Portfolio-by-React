@@ -32,7 +32,7 @@ function Navbar(currentPage, changePage) {
         >
           Contact Info
         </a>
-        <a href="./assets/Shlomo Siegelman Resume 2022.pdf" download>
+        <a href="../assets/Shlomo Siegelman Resume 2022.pdf" target="_blank">
           Resume
         </a>
       </div>
