@@ -24,12 +24,12 @@ function App() {
   const changePage = (page) => setCurrentPage(page);
 
   return (
-    <div className="portfolio">
-      <div className="navbar">
+    <div class="bg-black">
+      <div class="flex-column justify-space-around">
         <Navbar currentPage={currentPage} changePage={changePage} />
+        {renderPage()}
+        <Footer />
       </div>
-      {renderPage()}
-      <Footer />
     </div>
   );
 }
