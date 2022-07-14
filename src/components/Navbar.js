@@ -25,7 +25,7 @@ function Navbar({ currentPage, changePage }) {
           href="#Contact"
           onClick={() => changePage("Contact")}
         >
-          Contact Info
+          Contact
         </a>
         <a href={Resume} target="_blank" rel="noreferrer noopener">
           Resume

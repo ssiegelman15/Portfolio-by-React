@@ -3,14 +3,14 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div id="work">
+    <section id="work">
       <h3>Work</h3>
-      <div>
+      <aside>
         <div className="main-content d-flex row">
           <div className="card mx-2" style="width: 18rem;">
             <img
               className="card-img-top"
-              src="./assets/images/Park-Pass-Screenshot.png"
+              src="../assets/images/Park-Pass-Screenshot.png"
               alt="Park Pass Landing Page"
             />
             <div className="card-body">
@@ -40,7 +40,7 @@ const Projects = () => {
           <div className="card mx-2" style="width: 18rem;">
             <img
               className="card-img-top"
-              src="./assets/images/beer_screenshot.png"
+              src="../assets/images/beer_screenshot.png"
               alt="Beer Blog Homepage"
             />
             <div className="card-body">
@@ -70,7 +70,7 @@ const Projects = () => {
           <div className="card mx-2" style="width: 18rem;">
             <img
               className="card-img-top"
-              src="./assets/images/loginScreenshot.png"
+              src="../assets/images/loginScreenshot.png"
               alt="Earbud Login Page"
             />
             <div className="card-body">
@@ -96,8 +96,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </aside>
+    </section>
   );
 };
 

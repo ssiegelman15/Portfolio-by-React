@@ -16,7 +16,7 @@ function App() {
       return <Contact />;
     } else if (currentPage === "Projects") {
       return <Projects />;
-    } else {
+    } else if (currentPage === "About") {
       return <About />;
     }
   };
@@ -27,7 +27,7 @@ function App() {
     <div className="bg-black">
       <div className="flex-column justify-space-around">
         <Navbar currentPage={currentPage} changePage={changePage} />
-        {renderPage()}
+        {renderPage(currentPage)}
         <Footer />
       </div>
     </div>
