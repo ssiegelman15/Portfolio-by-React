@@ -1,3 +1,4 @@
+/* eslint-disable no-const-assign */
 import "./App.css";
 import React, { useState } from "react";
 import About from "./components/About";
