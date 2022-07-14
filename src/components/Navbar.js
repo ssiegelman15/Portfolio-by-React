@@ -5,9 +5,33 @@ function Navbar(currentPage, changePage) {
     <header>
       <h1 id="name">Shlomo Siegelman</h1>
       <div class="header-right">
-        <a href="#about">About Me</a>
-        <a href="#projects">My Projects</a>
-        <a href="#contact">Contact Info</a>
+        <a
+          className={currentPage === "About"}
+          href="#About"
+          onClick={function () {
+            changePage("About");
+          }}
+        >
+          About Me
+        </a>
+        <a
+          className={currentPage === "Projects"}
+          href="#Projects"
+          onClick={function () {
+            changePage("Projects");
+          }}
+        >
+          My Projects
+        </a>
+        <a
+          className={currentPage === "Contact"}
+          href="#Contact"
+          onClick={function () {
+            changePage("Contact");
+          }}
+        >
+          Contact Info
+        </a>
         <a href="./assets/Shlomo Siegelman Resume 2022.pdf" download>
           Resume
         </a>
