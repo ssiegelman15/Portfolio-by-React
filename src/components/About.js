@@ -6,7 +6,7 @@ const About = () => {
     <div id="about">
       <h3>About</h3>
       <div>
-        <p class="main-content">
+        <p className="main-content">
           I am an aspiring full stack developer. This is my first attempt to
           build a portfolio page with which to showcase some of my work.
           <br />

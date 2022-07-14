@@ -12,9 +12,9 @@ function App() {
 
   // Render page based on state with About page as the default
   const renderPage = () => {
-    if ((currentPage = Contact)) {
+    if (currentPage === "Contact") {
       return <Contact />;
-    } else if ((currentPage = Projects)) {
+    } else if (currentPage === "Projects") {
       return <Projects />;
     } else {
       return <About />;
@@ -24,8 +24,8 @@ function App() {
   const changePage = (page) => setCurrentPage(page);
 
   return (
-    <div class="bg-black">
-      <div class="flex-column justify-space-around">
+    <div className="bg-black">
+      <div className="flex-column justify-space-around">
         <Navbar currentPage={currentPage} changePage={changePage} />
         {renderPage()}
         <Footer />

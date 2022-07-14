@@ -1,42 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
+import Resume from "../assets/Resume.pdf";
 
-function Navbar(currentPage, changePage) {
+function Navbar({ currentPage, changePage }) {
   return (
     <header>
       <h1 id="name">Shlomo Siegelman</h1>
-      <div class="header-right">
+      <div className="header-right">
         <a
           className={currentPage === "About"}
           href="#About"
-          onClick={function () {
-            changePage("About");
-          }}
+          onClick={() => changePage("About")}
         >
           About Me
         </a>
         <a
           className={currentPage === "Projects"}
           href="#Projects"
-          onClick={function () {
-            changePage("Projects");
-          }}
+          onClick={() => changePage("Projects")}
         >
           My Projects
         </a>
         <a
           className={currentPage === "Contact"}
           href="#Contact"
-          onClick={function () {
-            changePage("Contact");
-          }}
+          onClick={() => changePage("Contact")}
         >
           Contact Info
         </a>
-        <a
-          href="../assets/Shlomo Siegelman Resume 2022.pdf"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+        <a href={Resume} target="_blank" rel="noreferrer noopener">
           Resume
         </a>
       </div>
