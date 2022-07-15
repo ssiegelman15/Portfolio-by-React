@@ -4,7 +4,6 @@ import React from "react";
 const About = () => {
   return (
     <section id="about">
-      {/* <h3>About</h3> */}
       <div>
         <p className="main-content">
           I am an aspiring full stack developer. This is my first attempt to
