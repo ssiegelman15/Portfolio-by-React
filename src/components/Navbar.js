@@ -4,26 +4,33 @@ import Resume from "../assets/Resume.pdf";
 function Navbar({ currentPage, changePage }) {
   return (
     <header>
-      <h1 id="name">Shlomo Siegelman</h1>
+      <h1 id="myName">Shlomo Siegelman</h1>
       <div className="header-right">
         <a
-          className={currentPage === "About"}
+          className={currentPage === 'About'
+          ? 'hover:opacity-75 focus:border-b'
+          : 'hover:opacity-75'
+        }
           href="#About"
-          onClick={() => changePage("About")}
+          onClick={function () {changePage("About")}}
         >
           About Me
         </a>
         <a
-          className={currentPage === "Projects"}
+          className={currentPage === "Projects" 
+          ? 'hover:opacity-75 focus:border-b'
+          : 'hover:opacity-75'}
           href="#Projects"
-          onClick={() => changePage("Projects")}
+          onClick={function () {changePage("Projects")}}
         >
           My Projects
         </a>
         <a
-          className={currentPage === "Contact"}
+          className={currentPage === "Contact"
+          ? 'hover:opacity-75 focus:border-b'
+          : 'hover:opacity-75'}
           href="#Contact"
-          onClick={() => changePage("Contact")}
+          onClick={function () {changePage("Contact")}}
         >
           Contact
         </a>

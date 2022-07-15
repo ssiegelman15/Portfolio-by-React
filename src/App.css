@@ -25,7 +25,7 @@ h1 {
   border-radius: 4px;
 }
 
-#name {
+#myName {
   font-size: 25px;
   font-weight: bold;
 }
@@ -97,7 +97,6 @@ aside {
 }
 
 .btn-primary {
-  margin-left: 60px;
   background-color: black;
 }
 
