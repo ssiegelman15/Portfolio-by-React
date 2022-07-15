@@ -145,3 +145,8 @@ nav a {
   padding: 0px 8px;
   color: white;
 }
+
+#errorText {
+  color: white;
+  text-align: center;
+}

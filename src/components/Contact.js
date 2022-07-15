@@ -66,7 +66,7 @@ function Contact() {
       return;
     }
     if (!validateEmail(email)) {
-      setErrorMessage('Email is invalid, please enter a valid email address!');
+      setErrorMessage('Please enter a valid email address!');
       return;
     }
     if (!message) {
@@ -115,8 +115,7 @@ function Contact() {
       </form>
       {errorMessage && (
 								<div>
-									<p className="error-text text-center text-lg animate-pulse">
-										<i className="fa-solid fa-triangle-exclamation pr-2"></i>
+									<p id="errorText">
 										{errorMessage}
 									</p>
 								</div>
