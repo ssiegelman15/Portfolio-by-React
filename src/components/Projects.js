@@ -7,7 +7,6 @@ import EarBudImage from "../assets/images/EarBudScreenshot.png";
 const Projects = () => {
   return (
     <section id="work">
-      {/* <h3>Work</h3> */}
       <aside>
         <div className="main-content d-flex row">
           <div className="card mx-2">

@@ -3,8 +3,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about">
-      <h3>About</h3>
+    <section id="about">
+      {/* <h3>About</h3> */}
       <div>
         <p className="main-content">
           I am an aspiring full stack developer. This is my first attempt to
@@ -19,7 +19,7 @@ const About = () => {
           refinery in Linden, NJ.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
