@@ -98,6 +98,7 @@ aside {
 .card {
   background-color: cadetblue;
   color: white;
+  width: 18rem;
 }
 
 .contacts {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Resume from "../assets/Resume.pdf";
 
 function Navbar({ currentPage, changePage }) {
