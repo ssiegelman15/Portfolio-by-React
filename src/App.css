@@ -44,6 +44,11 @@ header a.active {
   float: right;
 }
 
+#profile-pic {
+  width:24rem;
+  padding-bottom: 30px;
+}
+
 footer {
   overflow: hidden;
   background-color: cadetblue;
@@ -62,8 +67,6 @@ main {
 
 section {
   display: flex;
-  /* flex-wrap: wrap; */
-  /* flex-direction: row; */
   text-align: center;
   color: cadetblue;
   padding: 50px 0 100px 0;
@@ -86,7 +89,11 @@ aside {
 }
 
 .main-content {
-  padding-left: 40px;
+  padding-left: 400px;
+  padding-right: 400px;
+  font-size: 20px;
+  flex: auto;
+  justify-content: center;
 }
 
 .btn-primary {
@@ -98,6 +105,7 @@ aside {
   background-color: cadetblue;
   color: white;
   width: 18rem;
+  margin-bottom: 20px;
 }
 
 .contacts {
