@@ -81,9 +81,10 @@ h3 {
 
 aside {
   display: flex;
+  justify-content: center;
   flex: 3;
-  padding-right: 150px;
-  border-left: 2px solid cadetblue;
+  /* padding-right: 150px; */
+  /* border-left: 2px solid cadetblue; */
 }
 
 .main-content {
