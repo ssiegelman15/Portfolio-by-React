@@ -3,6 +3,7 @@ import React from "react";
 import ParkPassImage from "../assets/images/ParkPassScreenshot.png";
 import BeerBlogImage from "../assets/images/BeerBlogScreenshot.png";
 import EarBudImage from "../assets/images/EarBudScreenshot.png";
+import PWAScreenshot from "../assets/images/PWAScreenshot.jpg";
 
 const Projects = () => {
   return (
@@ -104,25 +105,26 @@ const Projects = () => {
           <div className="card mx-2 col">
             <img
               className="card-img-top"
-              src={ParkPassImage}
-              alt="Park Pass Landing Page"
+              src={PWAScreenshot}
+              alt="PWA Screenshot"
             />
             <div className="card-body">
               <h5 className="text-center">
                 <a
                   className="card-title text-white"
-                  href="https://gokublue007.github.io/Park-Pass/"
+                  href="https://infinite-peak-08604.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  Park Pass
+                  J.A.T.E.
                 </a>
               </h5>
               <p className="card-text text-center">
-                Check out some trails near your favorite National Parks!
+                Just Another Text Editor <br />
+                (using Progressive Web Applications)
               </p>
               <a
-                href="https://github.com/gokublue007/Park-Pass"
+                href="https://github.com/ssiegelman15/Progressivz-Wit-Attitudes"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer noopener"
