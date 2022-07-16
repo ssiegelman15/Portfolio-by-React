@@ -45,7 +45,7 @@ header a.active {
 }
 
 #profile-pic {
-  width:24rem;
+  width: 24rem;
   padding-bottom: 30px;
 }
 
@@ -82,18 +82,24 @@ h3 {
   flex-wrap: wrap;
 }
 
-aside {
+/* aside {
   display: flex;
   justify-content: center;
   flex: 3;
-}
+} */
 
 .main-content {
-  padding-left: 400px;
-  padding-right: 400px;
+  /* padding-left: 400px;
+  padding-right: 400px; */
   font-size: 20px;
   flex: auto;
   justify-content: center;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
 }
 
 .btn-primary {
