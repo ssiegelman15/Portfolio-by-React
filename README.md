@@ -5,10 +5,10 @@
 ## Table of Contents
 
 - [Description](#description)
+- [Screenshot](#screenshot)
+- [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 
@@ -16,21 +16,24 @@
 
 My first full portfolio built using React.js meant to showcase my full stack abilities.
 
+## Screenshot
+
+## Technologies
+
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Bootstrap
+
 ## Installation
 
 npm i
 
 ## Usage
 
-Please click the following link to see my deployed portfolio website:
-
-## Contributing
-
-N/A
-
-## Tests
-
-N/A
+Please click the following link to see my deployed portfolio website: https://ssiegelman15.github.io/Portfolio-by-React/
 
 ## Questions
 
