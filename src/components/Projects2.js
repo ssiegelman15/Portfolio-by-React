@@ -73,8 +73,8 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <main>
-      <section className="gridRow">
+    <section id="projects">
+      <div className="parent container">
         {projectData.map(
           ({
             key,
@@ -87,7 +87,7 @@ const Projects = () => {
             description,
           }) => {
             return (
-              <div key={key} className="card">
+              <div key={key} className={id}>
                 <img className="card-img-top" src={screenshot} alt={altText} />
                 <div className="card-body">
                   <h5 className="text-center">
@@ -114,8 +114,8 @@ const Projects = () => {
             );
           }
         )}
-      </section>
-    </main>
+      </div>
+    </section>
   );
 };
 

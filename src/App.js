@@ -25,11 +25,9 @@ function App() {
 
   return (
     <div className="bg-black">
-      <div className="flex-column justify-space-around">
-        <Navbar currentPage={currentPage} changePage={changePage} />
-        <main>{renderPage()}</main>
-        <Footer />
-      </div>
+      <Navbar currentPage={currentPage} changePage={changePage} />
+      <main>{renderPage()}</main>
+      <Footer />
     </div>
   );
 }
