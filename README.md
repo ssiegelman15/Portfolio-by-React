@@ -18,6 +18,8 @@ My first full portfolio built using React.js meant to showcase my full stack abi
 
 ## Screenshot
 
+![PortfolioScreenshot](https://user-images.githubusercontent.com/70458726/179443289-f2abc666-3aa4-463f-aa13-c7c55f090639.png)
+
 ## Technologies
 
 - React.js
