@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-by-React/static/css/main.3113806b.css",
+    "main.css": "/Portfolio-by-React/static/css/main.57897b70.css",
     "main.js": "/Portfolio-by-React/static/js/main.d2854a6f.js",
     "static/media/ParkPassScreenshot.png": "/Portfolio-by-React/static/media/ParkPassScreenshot.369fd3634856a4572b26.png",
     "static/media/BeerBlogScreenshot.png": "/Portfolio-by-React/static/media/BeerBlogScreenshot.b7e5bc2de2316fded4aa.png",
@@ -11,11 +11,11 @@
     "static/media/Resume.pdf": "/Portfolio-by-React/static/media/Resume.215a9a34e4141e65ac82.pdf",
     "static/media/PWAScreenshot.jpg": "/Portfolio-by-React/static/media/PWAScreenshot.475c0f7585aca6468b6f.jpg",
     "index.html": "/Portfolio-by-React/index.html",
-    "main.3113806b.css.map": "/Portfolio-by-React/static/css/main.3113806b.css.map",
+    "main.57897b70.css.map": "/Portfolio-by-React/static/css/main.57897b70.css.map",
     "main.d2854a6f.js.map": "/Portfolio-by-React/static/js/main.d2854a6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3113806b.css",
+    "static/css/main.57897b70.css",
     "static/js/main.d2854a6f.js"
   ]
 }
