@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio-by-React/static/css/main.3113806b.css",
+    "main.js": "/Portfolio-by-React/static/js/main.d2854a6f.js",
+    "static/media/ParkPassScreenshot.png": "/Portfolio-by-React/static/media/ParkPassScreenshot.369fd3634856a4572b26.png",
+    "static/media/BeerBlogScreenshot.png": "/Portfolio-by-React/static/media/BeerBlogScreenshot.b7e5bc2de2316fded4aa.png",
+    "static/media/EarBudScreenshot.png": "/Portfolio-by-React/static/media/EarBudScreenshot.e698492aa74a087e7c51.png",
+    "static/media/PictureOfMe.jpg": "/Portfolio-by-React/static/media/PictureOfMe.8f3f0dac631b46cf22cc.jpg",
+    "static/media/PasswordScreenshot.png": "/Portfolio-by-React/static/media/PasswordScreenshot.38401ade2be4107e98d6.png",
+    "static/media/NoteTakerScreenshot.png": "/Portfolio-by-React/static/media/NoteTakerScreenshot.83ea5d7078ba70481171.png",
+    "static/media/Resume.pdf": "/Portfolio-by-React/static/media/Resume.215a9a34e4141e65ac82.pdf",
+    "static/media/PWAScreenshot.jpg": "/Portfolio-by-React/static/media/PWAScreenshot.475c0f7585aca6468b6f.jpg",
+    "index.html": "/Portfolio-by-React/index.html",
+    "main.3113806b.css.map": "/Portfolio-by-React/static/css/main.3113806b.css.map",
+    "main.d2854a6f.js.map": "/Portfolio-by-React/static/js/main.d2854a6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3113806b.css",
+    "static/js/main.d2854a6f.js"
+  ]
+}
