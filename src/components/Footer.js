@@ -9,7 +9,23 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer noopener"
       >
-        Follow my coding journey on my Github page!
+        Github
+      </a>
+      <a
+        className="align-items-center"
+        href="https://www.linkedin.com/in/shlomo-siegelman-67b50112/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        LinkedIn
+      </a>
+      <a
+        className="align-items-center"
+        href="https://www.instagram.com/shlomo_siegelman/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        Instagram
       </a>
     </footer>
   );

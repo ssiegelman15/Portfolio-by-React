@@ -56,15 +56,19 @@ function Contact() {
     e.preventDefault();
 
     if (!userName) {
-      setErrorMessage(`You cannot leave the name section blank!`);
+      setErrorMessage(`Leaving feedback without a name is just weak...`);
       return;
     }
     if (!validateEmail(email)) {
-      setErrorMessage("Please enter a valid email address!");
+      setErrorMessage(
+        "How will I get back to you if you don't give me your email address??"
+      );
       return;
     }
     if (!message) {
-      setErrorMessage(`You cannot leave the message section blank!`);
+      setErrorMessage(
+        `If you send a message and it's blank, did you really send a message at all?`
+      );
       return;
     }
     if (userName && validateEmail(email) && message) {
@@ -74,8 +78,9 @@ function Contact() {
   };
 
   return (
-    <div>
-      <form className="form container">
+    <form className="form container">
+      <div className="col">
+        <h3> Contact Me </h3>
         <input
           value={userName}
           name="userName"
@@ -96,7 +101,7 @@ function Contact() {
           id="emailInput"
           className="row"
         />
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
@@ -106,16 +111,22 @@ function Contact() {
           id="messageInput"
           className="row"
         />
-        <button type="button" onClick={handleFormSubmit} className="row">
+        <button
+          type="button"
+          onClick={handleFormSubmit}
+          className="row"
+          id="submit"
+        >
           Submit
         </button>
-      </form>
+      </div>
+
       {errorMessage && (
         <div>
           <p id="errorText">{errorMessage}</p>
         </div>
       )}
-    </div>
+    </form>
   );
 }
 
