@@ -6,6 +6,7 @@ import EarBudImage from "../assets/images/EarBudScreenshot.png";
 import PWAScreenshot from "../assets/images/PWAScreenshot.jpg";
 import PasswordScreenshot from "../assets/images/PasswordScreenshot.png";
 import NoteTakerScreenshot from "../assets/images/NoteTakerScreenshot.png";
+import MoovySpaceScreenshot from "../assets/images/MoovySpaceScreenshot";
 
 const projectData = [
   {
@@ -41,12 +42,13 @@ const projectData = [
   {
     key: 4,
     id: "div4 card",
-    screenshot: PWAScreenshot,
-    altText: "J.A.T.E.",
-    title: "Progressivz Wit Attitudes",
-    deployed: "https://infinite-peak-08604.herokuapp.com/",
-    github: "https://github.com/ssiegelman15/Progressivz-Wit-Attitudes",
-    description: "Just Another Text Editor (aka J.A.T.E.)...",
+    screenshot: MoovySpaceScreenshot,
+    altText: "MoovySpace",
+    title: "MoovySpace",
+    deployed: "https://moovyspace.herokuapp.com/",
+    github: "https://github.com/jgault87/MoovySpace",
+    description:
+      "Share your favorite movies and discover new movie recommendations!",
   },
   {
     key: 5,
