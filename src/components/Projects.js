@@ -3,10 +3,9 @@ import React from "react";
 import ParkPassImage from "../assets/images/ParkPassScreenshot.png";
 import BeerBlogImage from "../assets/images/BeerBlogScreenshot.png";
 import EarBudImage from "../assets/images/EarBudScreenshot.png";
-import PWAScreenshot from "../assets/images/PWAScreenshot.jpg";
 import PasswordScreenshot from "../assets/images/PasswordScreenshot.png";
 import NoteTakerScreenshot from "../assets/images/NoteTakerScreenshot.png";
-import MoovySpaceScreenshot from "../assets/images/MoovySpaceScreenshot";
+import MoovySpaceScreenshot from "../assets/images/MoovySpaceScreenshot.png";
 
 const projectData = [
   {
