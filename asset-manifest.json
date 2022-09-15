@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio-by-React/static/css/main.57897b70.css",
-    "main.js": "/Portfolio-by-React/static/js/main.d2854a6f.js",
+    "main.js": "/Portfolio-by-React/static/js/main.50f2da73.js",
     "static/media/ParkPassScreenshot.png": "/Portfolio-by-React/static/media/ParkPassScreenshot.369fd3634856a4572b26.png",
     "static/media/BeerBlogScreenshot.png": "/Portfolio-by-React/static/media/BeerBlogScreenshot.b7e5bc2de2316fded4aa.png",
+    "static/media/MoovySpaceScreenshot.png": "/Portfolio-by-React/static/media/MoovySpaceScreenshot.3297551f9165dfced307.png",
     "static/media/EarBudScreenshot.png": "/Portfolio-by-React/static/media/EarBudScreenshot.e698492aa74a087e7c51.png",
     "static/media/PictureOfMe.jpg": "/Portfolio-by-React/static/media/PictureOfMe.8f3f0dac631b46cf22cc.jpg",
     "static/media/PasswordScreenshot.png": "/Portfolio-by-React/static/media/PasswordScreenshot.38401ade2be4107e98d6.png",
     "static/media/NoteTakerScreenshot.png": "/Portfolio-by-React/static/media/NoteTakerScreenshot.83ea5d7078ba70481171.png",
     "static/media/Resume.pdf": "/Portfolio-by-React/static/media/Resume.215a9a34e4141e65ac82.pdf",
-    "static/media/PWAScreenshot.jpg": "/Portfolio-by-React/static/media/PWAScreenshot.475c0f7585aca6468b6f.jpg",
     "index.html": "/Portfolio-by-React/index.html",
     "main.57897b70.css.map": "/Portfolio-by-React/static/css/main.57897b70.css.map",
-    "main.d2854a6f.js.map": "/Portfolio-by-React/static/js/main.d2854a6f.js.map"
+    "main.50f2da73.js.map": "/Portfolio-by-React/static/js/main.50f2da73.js.map"
   },
   "entrypoints": [
     "static/css/main.57897b70.css",
-    "static/js/main.d2854a6f.js"
+    "static/js/main.50f2da73.js"
   ]
 }
