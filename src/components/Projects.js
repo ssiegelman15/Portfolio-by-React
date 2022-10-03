@@ -44,8 +44,8 @@ const projectData = [
     screenshot: MoovySpaceScreenshot,
     altText: "MoovySpace",
     title: "MoovySpace",
-    deployed: "https://moovyspace.herokuapp.com/",
-    github: "https://github.com/jgault87/MoovySpace",
+    deployed: "https://moovyspace2.herokuapp.com/",
+    github: "https://github.com/mahiv87/MoovySpace2.0",
     description:
       "Share your favorite movies and discover new movie recommendations!",
   },
