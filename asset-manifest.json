@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-by-React/static/css/main.57897b70.css",
-    "main.js": "/Portfolio-by-React/static/js/main.50f2da73.js",
+    "main.css": "/Portfolio-by-React/static/css/main.1abea3c7.css",
+    "main.js": "/Portfolio-by-React/static/js/main.6017b161.js",
     "static/media/ParkPassScreenshot.png": "/Portfolio-by-React/static/media/ParkPassScreenshot.369fd3634856a4572b26.png",
     "static/media/BeerBlogScreenshot.png": "/Portfolio-by-React/static/media/BeerBlogScreenshot.b7e5bc2de2316fded4aa.png",
     "static/media/MoovySpaceScreenshot.png": "/Portfolio-by-React/static/media/MoovySpaceScreenshot.3297551f9165dfced307.png",
@@ -11,11 +11,11 @@
     "static/media/NoteTakerScreenshot.png": "/Portfolio-by-React/static/media/NoteTakerScreenshot.83ea5d7078ba70481171.png",
     "static/media/Resume.pdf": "/Portfolio-by-React/static/media/Resume.215a9a34e4141e65ac82.pdf",
     "index.html": "/Portfolio-by-React/index.html",
-    "main.57897b70.css.map": "/Portfolio-by-React/static/css/main.57897b70.css.map",
-    "main.50f2da73.js.map": "/Portfolio-by-React/static/js/main.50f2da73.js.map"
+    "main.1abea3c7.css.map": "/Portfolio-by-React/static/css/main.1abea3c7.css.map",
+    "main.6017b161.js.map": "/Portfolio-by-React/static/js/main.6017b161.js.map"
   },
   "entrypoints": [
-    "static/css/main.57897b70.css",
-    "static/js/main.50f2da73.js"
+    "static/css/main.1abea3c7.css",
+    "static/js/main.6017b161.js"
   ]
 }
