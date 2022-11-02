@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useForm } from "@formspree/react";
 import { validateEmail } from "../utils/helpers.js";
 
 function Contact() {
@@ -9,11 +8,6 @@ function Contact() {
   const [userName, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [state, handleSubmit] = useForm("emailForm");
-
-  if (state.succeeded) {
-    return <div>Thank you for signing up!</div>;
-  }
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -84,7 +78,7 @@ function Contact() {
   };
 
   return (
-    <form className="form container" id="emailForm" onSubmit={handleSubmit}>
+    <form className="form container">
       <div className="col">
         <h3> Contact Me </h3>
         <input
