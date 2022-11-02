@@ -11,6 +11,10 @@ function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
   const [state, handleSubmit] = useForm("emailForm");
 
+  if (state.succeeded) {
+    return <div>Thank you for signing up!</div>;
+  }
+
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
     const { target } = e;
