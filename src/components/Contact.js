@@ -80,7 +80,7 @@ function Contact() {
   };
 
   return (
-    <form className="form container" id="emailForm">
+    <form className="form container" id="emailForm" onSubmit={handleSubmit}>
       <div className="col">
         <h3> Contact Me </h3>
         <input
