@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useForm } from "@formspree/react";
 import { validateEmail } from "../utils/helpers.js";
 
 function Contact() {
