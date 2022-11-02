@@ -9,6 +9,7 @@ function Contact() {
   const [userName, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [state, handleSubmit] = useForm("emailForm");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -79,7 +80,7 @@ function Contact() {
   };
 
   return (
-    <form className="form container">
+    <form className="form container" id="emailForm">
       <div className="col">
         <h3> Contact Me </h3>
         <input
