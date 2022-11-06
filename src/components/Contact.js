@@ -8,7 +8,6 @@ function Contact() {
   const [userName, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [status, setStatus] = useState("Submit");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -29,8 +28,6 @@ function Contact() {
   const handleFormSubmit = async (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-    // Set status state to "Sending..."
-    setStatus("Sending...");
 
     // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
     if (!validateEmail(email)) {
