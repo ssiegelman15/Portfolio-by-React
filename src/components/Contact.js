@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { validateEmail } from "../utils/helpers.js";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState("");
@@ -45,6 +46,22 @@ function Contact() {
       setErrorMessage(`You cannot leave the message section blank!`);
       return;
     }
+
+    emailjs
+      .sendForm(
+        "service_abmk1w1",
+        "template_e80poee",
+        form.current,
+        "L055p9ITehQ4NYhvi"
+      )
+      .then(
+        (result) => {
+          // show the user a success message
+        },
+        (error) => {
+          // show the user an error
+        }
+      );
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName("");
