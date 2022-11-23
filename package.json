@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ssiegelman15.github.io/Portfolio-by-React",
   "dependencies": {
+    "@emailjs/browser": "^3.9.1",
     "cors": "^2.8.5",
     "email-js": "^2.0.2",
     "express": "^4.18.2",

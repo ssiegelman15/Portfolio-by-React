@@ -130,7 +130,8 @@ function Contact() {
           className="row"
         />
         <button
-          type="button"
+          type="submit"
+          value="send"
           // onClick={handleFormSubmit}
           className="row"
           id="submit"
