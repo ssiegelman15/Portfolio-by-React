@@ -56,10 +56,10 @@ function Contact() {
       )
       .then(
         (result) => {
-          // show the user a success message
+          console.log("Great Success, High Five!!");
         },
         (error) => {
-          // show the user an error
+          console.log("You're Fired!");
         }
       );
 
@@ -96,7 +96,7 @@ function Contact() {
   };
 
   return (
-    <form className="form container">
+    <form className="form container" ref={form} onSubmit={handleFormSubmit}>
       <div className="col">
         <h3> Contact Me </h3>
         <input
@@ -131,7 +131,7 @@ function Contact() {
         />
         <button
           type="button"
-          onClick={handleFormSubmit}
+          // onClick={handleFormSubmit}
           className="row"
           id="submit"
         >
