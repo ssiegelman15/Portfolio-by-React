@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers.js";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   // Create state variables for the fields in the form
