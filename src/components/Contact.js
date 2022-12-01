@@ -6,8 +6,8 @@ function Contact() {
   const form = useRef();
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
-  const [email, setEmail] = useState("");
-  const [userName, setUserName] = useState("");
+  const [user_email, setUser_email] = useState("");
+  const [user_name, setUser_name] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -18,10 +18,10 @@ function Contact() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and password
-    if (inputType === "email") {
-      setEmail(inputValue);
-    } else if (inputType === "userName") {
-      setUserName(inputValue);
+    if (inputType === "user_email") {
+      setUser_email(inputValue);
+    } else if (inputType === "user_name") {
+      setUser_name(inputValue);
     } else {
       setMessage(inputValue);
     }
@@ -32,13 +32,13 @@ function Contact() {
     e.preventDefault();
 
     // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email)) {
+    if (!validateEmail(user_email)) {
       setErrorMessage("Email is invalid, please enter a valid email address!");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the user name and message is not valid. If so, we set an error message regarding the invalid entry.
     }
-    if (!userName) {
+    if (!user_name) {
       setErrorMessage(`You cannot leave the name section blank!`);
       return;
     }
@@ -57,6 +57,7 @@ function Contact() {
       .then(
         (result) => {
           console.log("Great Success, High Five!!");
+          console.log(form.current);
         },
         (error) => {
           console.log("You're Fired!");
@@ -64,20 +65,20 @@ function Contact() {
       );
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setUserName("");
+    setUser_name("");
     setMessage("");
-    setEmail("");
+    setUser_email("");
     setErrorMessage("");
   };
 
   const handleOnBlur = (e) => {
     e.preventDefault();
 
-    if (!userName) {
+    if (!user_name) {
       setErrorMessage(`Leaving feedback without a name is just weak...`);
       return;
     }
-    if (!validateEmail(email)) {
+    if (!validateEmail(user_email)) {
       setErrorMessage(
         "How will I get back to you if you don't give me your email address??"
       );
@@ -89,7 +90,7 @@ function Contact() {
       );
       return;
     }
-    if (userName && validateEmail(email) && message) {
+    if (user_name && validateEmail(user_email) && message) {
       setErrorMessage("");
       return;
     }
@@ -100,8 +101,8 @@ function Contact() {
       <div className="col">
         <h3> Contact Me </h3>
         <input
-          value={userName}
-          name="userName"
+          value={user_name}
+          name="user_name"
           onChange={handleInputChange}
           onBlur={handleOnBlur}
           type="text"
@@ -110,8 +111,8 @@ function Contact() {
           className="row"
         />
         <input
-          value={email}
-          name="email"
+          value={user_email}
+          name="user_email"
           onChange={handleInputChange}
           onBlur={handleOnBlur}
           type="email"
